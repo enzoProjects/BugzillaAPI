@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
 
     @Autowired
-    LoginService loginService;
+    private LoginService loginService;
 
     @RequestMapping("/login")
     @ResponseStatus(value = HttpStatus.OK)
